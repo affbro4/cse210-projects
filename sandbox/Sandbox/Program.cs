@@ -6,6 +6,7 @@ class Program
     {
         Console.WriteLine("Hello CSE 210 World.");
         Console.WriteLine("Hey Jude.");
+        Console.WriteLine();
     }
 }
 
