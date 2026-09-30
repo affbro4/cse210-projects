@@ -2,8 +2,47 @@ using System;
 
 class Program
 {
+    // static double AddNumbers(double x, int y)
+    // {
+    //     // Console.WriteLine(x);
+    //     return x + y;
+    // }
+
+    // static string MyName()
+    // {
+    //     return "Bob";
+    // }
+
+    // static void DisplayGreeting(string name)
+    // {
+    //     Console.WriteLine($"Welcome {name}, its nice to meet you");
+    // }
+
     static void Main(string[] args)
     {
+        Circle myCircle = new Circle();
+        
+        myCircle._radius = 10;
+
+        double area = myCircle.GetArea();
+
+        Console.WriteLine(area);
+
+
+      
+    }
+}
+
+
+
+
+  // string myName = MyName();
+        // DisplayGreeting(myName);
+        // double total = AddNumbers(12.234, 20);
+        // Console.WriteLine(total);
+
+
+
         // int x = 10;
         // int y = 30;
         // int z = 40;
@@ -24,13 +63,13 @@ class Program
         // int mynumber = int.Parse(num);
 
         // While Loops
-        bool done = false; 
+        // bool done = false; 
         
-        while (! done)
-        {
-            Console.Write("Are we done (y/n)?");
-            done = Console.ReadLine() == "y";
-        }
+        // while (! done)
+        // {
+        //     Console.Write("Are we done (y/n)?");
+        //     done = Console.ReadLine() == "y";
+        // }
 
 
         // bool done; 
@@ -60,10 +99,6 @@ class Program
 
 
         // Functions 
-    }
-}
-
-
 
 
 
