@@ -47,4 +47,23 @@ class Scripture
         return tempWordList;
     }
 
+    private int NumberOfHiddenWords()
+    {
+        
+    }
+
+    public bool HideSomeWords()
+    {
+        
+    }
+
+
+    public string GetScriptureReference()
+    {
+        
+    }
+
+
+
 }
+
